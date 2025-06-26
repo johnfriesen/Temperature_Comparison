@@ -1,0 +1,5 @@
+This project involves the analysis of satellite temperature data from Landsat and MODIS in comparison with ambient air temperature measured at weather stations. The data used for the analysis can be downloaded using the "download_Landsat.ipynb" notebook. While additional datasets such as census or land cover are not required, a shapefile must be uploaded as a Google Earth Engine (GEE) asset to enable the download of Land Surface Temperature (LST) data.
+
+The core analysis is conducted in the "Assess_landsat_modis_as_temp_proxy.ipynb" notebook. This file contains the steps used to compare Landsat and MODIS temperature data with on-site air temperature measurements, as visualized in the figures of the associated poster.
+
+To examine the spatial variability of temperature data, two separate notebooks are used: "data_variability_landsat.ipynb" analyzes the variability within Landsat data, while "data_variability_modis.ipynb" performs the same analysis for MODIS data. The outcomes of these analyses are then compared in the spatial variability "comparison.ipynb" notebook.
