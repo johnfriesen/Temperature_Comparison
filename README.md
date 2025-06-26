@@ -1,6 +1,6 @@
-**Readme**
+**Scalable Climate Monitoring: Integrating Multi-Source Temperature Data for Urban Adaptation in Bavaria, Germany**
 
-This project involves the analysis of satellite temperature data from Landsat and MODIS in comparison with ambient air temperature measured at weather stations. The data used for the analysis can be downloaded using the "download_Landsat.ipynb" notebook. While additional datasets such as census or land cover are not required, a shapefile must be uploaded as a Google Earth Engine (GEE) asset to enable the download of Land Surface Temperature (LST) data.
+This project involves the analysis of satellite temperature data from Landsat and MODIS in comparison with ambient air temperature measured at weather stations. The results are presented in the poster *Scalable Climate Monitoring: Integrating Multi-Source Temperature Data for Urban Adaptation in Bavaria, Germany* at ESA Living Planet Symposium, 2025 in Vienna, Austria. The data used for the analysis can be downloaded using the "download_Landsat.ipynb" notebook. While additional datasets such as census or land cover are not required, a shapefile must be uploaded as a Google Earth Engine (GEE) asset to enable the download of Land Surface Temperature (LST) data.
 
 The core analysis is conducted in the "Assess_landsat_modis_as_temp_proxy.ipynb" notebook. This file contains the steps used to compare Landsat and MODIS temperature data with on-site air temperature measurements, as visualized in the figures of the associated poster.
 
